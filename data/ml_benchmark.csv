@@ -1,0 +1,7 @@
+model,dataset,RMSE,MAE,R2,MAPE
+M1: Random Forest,validation,5.5282,4.5064,0.8566,896.26
+M1: Random Forest,test,5.2544,4.1924,0.8582,860.88
+M2: Gradient Boosting,validation,4.7158,3.3238,0.8957,580.2
+M2: Gradient Boosting,test,5.4143,3.7543,0.8495,749.64
+M3: ElasticNet,validation,7.1261,5.0249,0.7618,1160.27
+M3: ElasticNet,test,6.8343,5.1718,0.7601,1850.76

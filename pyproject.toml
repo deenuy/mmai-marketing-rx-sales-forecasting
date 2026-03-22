@@ -1,0 +1,19 @@
+[project]
+name = "mmai-marketing-rx-sales-forecasting"
+version = "0.1.0"
+description = "Rx drug marketing mix modeling comparing parametric and machine learning approaches for sales prediction, inference, elasticity, and ROI analysis."
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "statsmodels",
+    "openpyxl",
+    "jupyter",
+    "notebook",
+    "ipykernel"
+]
