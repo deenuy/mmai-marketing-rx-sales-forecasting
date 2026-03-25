@@ -1,3 +1,10 @@
-model,dataset,RMSE,MAE,R2,MAPE
-M1: Pooled OLS,validation,10.934,5.75,0.4391,395.22
-M1: Pooled OLS,test,9.4357,4.6965,0.5428,187.81
+Model,Dataset,RMSE ($B),MAE ($B),R²,WMAPE (%)
+M1: Pooled OLS,Train,9.24,6.13,0.3721,47.5
+M1: Pooled OLS,Validation,10.77,5.41,0.4555,48.7
+M1: Pooled OLS,Test,9.54,4.49,0.5322,50.5
+M2: FE + Interactions,Train,4.02,2.93,0.8812,22.7
+M2: FE + Interactions,Validation,7.66,5.52,0.7302,47.5
+M2: FE + Interactions,Test,12.83,7.54,0.1772,81.0
+M3: Mixed Effects,Train,3.89,2.8,0.8886,21.7
+M3: Mixed Effects,Validation,10.05,5.14,0.5259,46.4
+M3: Mixed Effects,Test,6.72,3.64,0.7678,41.0

@@ -1,0 +1,7 @@
+Channel,Class,Elasticity
+Detailing,PPI,0.6412
+Detailing,SSRI,0.4496
+Detailing,Statin,0.3869
+DTCA,PPI,-0.0098
+DTCA,SSRI,0.0137
+DTCA,Statin,0.1362
